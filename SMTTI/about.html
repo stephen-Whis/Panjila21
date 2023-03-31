@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta name="viewport" content="with=device-width, intial-scale=1.0">
+ 	<title>Student Union Website design</title>
+ 	<link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ 	<section class="ctb">
+ 		<nav>
+		<a href="index.html"><img src="images/school logo.png"></a>
+
+		<div class="nav-links">
+			<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="course.html">COURSE</a></li>
+			<li><a href="Ministers blog.html">MINISTERS BLOG</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+			<li><a href="login.html">LOGIN</a></li>
+		</ul>
+	</div>
+</nav>
+
+<h1>About us</h1>
+
+</section>
+
+<section class="about-us">
+	<div class="row">
+		<div class="about-col">
+			<h1>St mawaggalli trades traing training istitute is a mission based skills training istitution managed by the catholic brothers of charity under the diocese of monze.<br>
+				<br>
+			The institute is located in choma in the heart of southern province and is 1km away from choma CBD.it is named after a it's patron saint who was a ugandan martry and was later taken over by goverment in 2003 who later changed it's name to choma trades training institute.<br>
+			in 2017 the christian brothers reclaimed the institute which is now called St mawaggalli trades training institute management board<br>
+			<br>
+			The institute is accredited to technical trainig and vocational Agency (TEVETA) Which is also it's examining board and fully registered
+			to the Engineering institution of zambia(EIZ).<br>The school offers a wide range of engineering and skills programs with the highest level of professional qualification that it awards being a craft certificate (2years).The lowest grade being a Trade test level 3 which is an open entry course<br>
+			<br>The courses offered include Mechanical fitting, Machinig, Power electrical, Automotive mechanics, Automotive electronics, Carpentry, Bricklayering and plastery, Information communication and technology, Metal fabrication, Tailoring, Food production and Driving.
+			</h1>
+</div>
+</section>
+
+<br>
+<div class="slideshow-container">
+
+<div class="iambrpslides fade">
+  <div class="numbertext">01 / 03</div>
+  <img src="./images/Autmotive.jpg">
+ </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">02 / 03</div>
+  <img src="./images/Mechanical.jpg">
+  </div>
+
+<div class="iambrpslides fade">
+  <div class="numbertext">03 / 03</div>
+  <img src="./images/Bricklaying.jpg">
+</div>
+<script>
+	var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("iambrpslides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+}
+</script>
+<br>
+<script type="text/javascript">
+  document.title="Home";
+</script>
+
+
+ <section class="footer">
+ 	<h4>ABOUT US</h4>
+ 	<p>St mawaggalli trades training institute management board is a mission institution<br> that is accredited to the enginnering institution of zambia (EIZ) and Techanical and vocational training agency (TEVETA) located in Choma southern province.</p>
+
+ </div>
+ <p>Made by Stephen Panjila Mwanza <br> (WHIS)<br>Mechanical Fitting Student</p>
+
+<
+ 	
+ </section>
+
+ </body>
